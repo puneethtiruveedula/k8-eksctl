@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "puneeth-remote-state1"
-    key    = "expense-dev-k8-ws"
+    key    = "expense-dev-k8-workstation"
     region = "us-east-1"
     dynamodb_table = "puneeth-locking1"
   }
